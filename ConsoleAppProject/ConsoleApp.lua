@@ -262,30 +262,29 @@ end
 -- Function For Main Game Code
 function tictactoe:AutoPlayRound()
     if self.Turn == self.Player then
-        -- Player Code/AI Code Feel Free To View
-        ::again::
-        local row, col
-        io.write(string.format("Player Turn! Currently Player Is %s\nChoose To Fill From 1-9\ninput Here : ", self.Player))
-        local plrCin = tonumber(io.read())
-        if plrCin > 9 or not plrCin or plrCin < 1 then print("Invaild input") goto again end
-        if plrCin <= 3 then
-            row, col = 1, plrCin
-            if not self:IsAbleToFill(row, col) then print("Board Already Filled Choose Another") goto again end
-            self:PlayerFill(row, col)
-        elseif plrCin <= 6 then
-            row, col = 2, plrCin-3
-            if not self:IsAbleToFill(row, col) then print("Board Already Filled Choose Another") goto again end
-            self:PlayerFill(row, col)
-        elseif plrCin <= 9 then
-            row, col = 3, plrCin-6
-            if not self:IsAbleToFill(row, col) then print("Board Already Filled Choose Another") goto again end
-            self:PlayerFill(row, col)
+        -- Player's turn
+        local validInput = false
+        while not validInput do
+            io.write(string.format("Player Turn! Currently Player Is %s\nChoose To Fill From 1-9\ninput Here : ", self.Player))
+            local plrCin = tonumber(io.read())
+            if plrCin and plrCin >= 1 and plrCin <= 9 then
+                local row = math.ceil(plrCin / 3)
+                local col = (plrCin - 1) % 3 + 1
+                if self:IsAbleToFill(row, col) then
+                    self:PlayerFill(row, col)
+                    validInput = true
+                else
+                    print("Board Already Filled. Choose Another.")
+                end
+            else
+                print("Invalid input. Please enter a number between 1 and 9.")
+            end
         end
         self.PrevPlayed = self.Player
         self.Turn = self.AI
     else
-        -- AI Code Feel Free To View
-        print("AI Turn!..AI is Thinking.. and Choosing")
+        -- AI's turn
+        print("AI Turn!.. AI is Thinking.. and Choosing")
         self:AIFill()
         self.PrevPlayed = self.AI
         self.Turn = self.Player
@@ -293,7 +292,7 @@ function tictactoe:AutoPlayRound()
 end
 
 -- Fit In All Function Together into Simple Code
-function tictactoe:StartGame()
+function tictactoe:StartAIGame()
     self:ChooseTeam()
     self:SelectDiff()
     self:StartTurn()
@@ -308,4 +307,4 @@ end
 
 -- Test Result
 local ttt1 = tictactoe.new()
-ttt1:StartGame()
+ttt1:StartAIGame()
