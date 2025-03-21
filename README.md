@@ -6,7 +6,8 @@ This project is a TicTacToe game where players can compete against an AI opponen
 if you interested in this Project or Wanted to Make One Yourself This Project is Pretty Begineer Friendly
 This Project Doesnt use Node For The Algorithm As Primary Thing For The Algorithm
 Since the Code Without Node is Working Fine So it doesnt matter to Add it
-the AI Without Depth Does the Same Thing as With Depth Does and Also Simpler Than The Depth One
+the AI Without Depth Can Bascially Does the Same Thing as With Depth Does and Also Simpler Than The Depth One
+but i reccommend the one with Depth it look Smarter than AI without Depth
 ## **Resource(if You wanted to make this Project)**
 - GeekForGeek : [Click Here](https://www.geeksforgeeks.org/minimax-algorithm-in-game-theory-set-4-alpha-beta-pruning/)
 ## **Features**  
