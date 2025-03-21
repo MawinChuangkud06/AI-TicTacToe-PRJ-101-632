@@ -1,5 +1,5 @@
 #This Python Code Contain pyfiglet
-#Also Install pyfiglet lib using pip install pyfiglet in terminal
+#Also Install pyfiglet lib use pip install pyfiglet in terminal
 #Below Is Unfixed Code so i use This To Compare with Fixed one
 '''
 #Must Install The Lib Below:
