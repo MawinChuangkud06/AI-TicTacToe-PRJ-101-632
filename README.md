@@ -1,18 +1,30 @@
-# AI-TicTacToe-PRJ-101-632
--- Title:
-AI TicTacToe Project 101 #632 Using MiniMax Algorithm , Easy Mode, Meduim Mode, Hard Mode Diff for Each AI
--- Desc:
-- This Project is About Building AI TicTacToe Project Using MiniMax Algorithm(Beta, Alpha)
--- What This Project Does:
-- 1. This Project Is a TicTacToe Game Where Everyone can try and play with AI
--- Programming Lanaguge Used:
-- 1. Python
-- 2. Lua
--- Credits:
-- Mawin CK: Developer Of This Project/Creator
--- Helper:
-- ChatGPT
-- Copliot
--- Social Media:
-- Mawin CK (Facebook) : https://www.facebook.com/profile.php?id=100092990831010
-- Mawin CK (Youtube) : https://www.youtube.com/@Mawmom
+Your README is understandable, but it could be formatted better for clarity and professionalism. Here’s a **cleaner, more structured version** with proper Markdown syntax:  
+
+---
+
+# **AI TicTacToe PRJ-101 #632**  
+An AI-powered TicTacToe game using the **MiniMax Algorithm** with difficulty levels: **Easy, Medium, Hard**.  
+
+## **Description**  
+This project is a TicTacToe game where players can compete against an AI opponent powered by the **MiniMax Algorithm** with **Alpha-Beta Pruning**.  
+
+## **Features**  
+- ✅ AI opponent with **three difficulty levels** (Easy, Medium, Hard).  
+- ✅ Implemented using **MiniMax Algorithm** with **Alpha-Beta Pruning**.  
+- ✅ Playable TicTacToe game for everyone.  
+
+## **Programming Languages Used**  
+- 🐍 **Python**  
+- 🌙 **Lua**  
+
+## **Credits**  
+👨‍💻 **Developer:** Mawin CK (Project Creator)  
+
+## **Helpers**  
+🤖 **AI Assistance:**  
+- ChatGPT  
+- GitHub Copilot  
+
+## **Social Media**  
+📌 **Mawin CK on Facebook:** [Click Here](https://www.facebook.com/profile.php?id=100092990831010)  
+📌 **Mawin CK on YouTube:** [Click Here](https://www.youtube.com/@Mawmom)  
