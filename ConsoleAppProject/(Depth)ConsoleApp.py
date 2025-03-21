@@ -356,9 +356,10 @@ class TicTacToe:
         return None
     
     def MiniMax(self, ismaxing, alpha : int , beta : int, depth : int):
-        if self.MiniMaxCheckWinner() == self.AI:
+        winner = self.MiniMaxCheckWinner()
+        if winner == self.AI:
             return 1 - depth
-        if self.MiniMaxCheckWinner() == self.Player:
+        if winner == self.Player:
             return -1 + depth
         if self.IsTie():
             return 0
