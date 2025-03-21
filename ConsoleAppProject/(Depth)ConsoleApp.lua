@@ -164,8 +164,9 @@ function tictactoe:MiniMaxCheckWinner()
 end
 -- Now All We Need is Just This Function For The Hard AI Algorithm
 function tictactoe:MiniMax(ismaxing, alpha, beta, depth)
-    if self:MiniMaxCheckWinner() == self.AI then return 1 - depth end
-    if self:MiniMaxCheckWinner() == self.Player then return -1 + depth end
+    local winner = self:MiniMaxCheckWinner()
+    if winner == self.AI then return 1 - depth end
+    if winner == self.Player then return -1 + depth end
     if self:IsTie() then return 0 end
     if ismaxing then
         -- This One For The AI Case
