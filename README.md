@@ -1,5 +1,5 @@
 # **AI TicTacToe PRJ-101 #632**  
-An AI-powered TicTacToe game using the **MiniMax Algorithm** with difficulty levels: **Easy, Medium, Hard**.  
+An AI TicTacToe game Project using the **MiniMax Algorithm** with difficulty levels: **Easy, Medium, Hard**.  
 
 ## **Description**  
 This project is a TicTacToe game where players can compete against an AI opponent powered by the **MiniMax Algorithm** with **Alpha-Beta Pruning**.  
