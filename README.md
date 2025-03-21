@@ -1,7 +1,3 @@
-Your README is understandable, but it could be formatted better for clarity and professionalism. Here’s a **cleaner, more structured version** with proper Markdown syntax:  
-
----
-
 # **AI TicTacToe PRJ-101 #632**  
 An AI-powered TicTacToe game using the **MiniMax Algorithm** with difficulty levels: **Easy, Medium, Hard**.  
 
