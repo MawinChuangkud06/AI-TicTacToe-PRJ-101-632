@@ -3,7 +3,8 @@ An AI TicTacToe game Project using the **MiniMax Algorithm** with difficulty lev
 
 ## **Description**  
 This project is a TicTacToe game where players can compete against an AI opponent powered by the **MiniMax Algorithm** with **Alpha-Beta Pruning**.  
-
+if you interested in this Project or Wanted to Make One Yourself This Project is Pretty Begineer Friendly
+This Project Doesnt use Node Or Depth For The Algorithm Well i Might Add it Soon
 ## **Features**  
 - ✅ AI opponent with **three difficulty levels** (Easy, Medium, Hard).  
 - ✅ Implemented using **MiniMax Algorithm** with **Alpha-Beta Pruning**.  
