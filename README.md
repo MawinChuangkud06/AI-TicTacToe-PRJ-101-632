@@ -17,7 +17,9 @@ but i reccommend the one with Depth it look Smarter than AI without Depth
 
 ## **Programming Languages Used**  
 - 🐍 **Python**  
-- 🌙 **Lua**  
+- 🌙 **Lua**
+- **C++**
+- **C#**
 
 ## **Credits**  
 👨‍💻 **Developer:** Mawin CK (Project Creator)  
