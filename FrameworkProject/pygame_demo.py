@@ -1,4 +1,4 @@
-# PyGame (No Design) Casually Coded By MawinCK and BlackBox AI
+# PyGame (No Design) Coded By MawinCK and BlackBox AI
 
 import pygame
 from random import randint
